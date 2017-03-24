@@ -6,23 +6,23 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-use App\mahasiswa;
+use App\Mahasiswa;
 
-class mahasiswacontroller extends Controller
+class MahasiswaController extends Controller
 {
     public function awal(){
-		return "Hello dari mahasiswacontroller";
-	}
-	public function tambah(){
-		return $this->simpan();
-	}
-	public function simpan(){
-		$ruangan = new mahasiswa();
-		$mahasiswa->nama = "Katon Nur Riyanto";
-		$mahasiswa->nim = "1515015084";
-		$mahasiswa->alamat = "perum temindung indah";
-		$mahasiswa->pengguna_id = 3;
-		$mahasiswa->save();
-		return "Data mahasiswa dengan nama {$mahasiswa->nama} telah disimpan";
-	}
+    	return "Hello dari MahasiswaController";
+    }
+    public function tambah(){
+    	return $this->simpan();
+    }
+    public function simpan(){
+    	$mahasiswa = new Mahasiswa();
+    	$mahasiswa->nama = "Andre Prasetya Rahman";
+    	$mahasiswa->nim = "1515015080";
+    	$mahasiswa->alamat = "Perjuangan 07";
+    	$mahasiswa->pengguna_id = 3;
+    	$mahasiswa->save();
+    	return "Data Mahasiswa dengan Nama {$mahasiswa->nama} telah disimpan";
+}
 }
