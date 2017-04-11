@@ -80,7 +80,7 @@
 		<nav class="navbar navbar-default navbar-fixed-bottom">
 		<footer class="container">
 			<!-- Please dont delete this -->
-			created by <a href="https://www.facebook.com/celine.aloyshima.9?ref=bookmarks"><span><i class="fa fa-facebook" style="color:#1da1f2"></i> @celinealoyshima</span></a>
+			created by <a href="https://www.facebook.com/kaymikumay"><span><i class="fa fa-facebook" style="color:#1da1f2"></i> @KatonNurRiyanto</span></a>
 			<!--/ Please dont delete this -->
 		</footer>	
 		</nav>
